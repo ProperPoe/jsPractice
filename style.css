@@ -38,10 +38,3 @@ body
     border-radius: 10px;
     margin: 10px 0px 10px 20px;
 }
-
-.text
-{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}

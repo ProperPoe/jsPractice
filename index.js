@@ -1,7 +1,4 @@
-const bob = document.querySelector('.face')
-const textDisplay = document.querySelector('.text')
-const emotions = ['Yo', 'man', 'bro']
-const newWord = emotions.join(' ')
+const bob = document.querySelector('.face');
 let count = 0;
 
 function moveBob(){
@@ -12,14 +9,5 @@ function moveBob(){
 
 }
 
-textDisplay.innerHTML = newWord
-console.log(newWord)
-
-/*const num = [34, 56, 24, 31]
-
-const res = num.reduce((x, y) => x + y)
-
-console.log(res)*/
-
-bob.addEventListener('click', moveBob)
+bob.addEventListener('click', moveBob);
 
